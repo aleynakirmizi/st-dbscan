@@ -4,6 +4,8 @@ class st_dbSCAN():
         #eps1 : maximum difference between 2 headline
         # eps 2 : maximum temporal diff value(timestamp)
         #minpt : minimum number of points within eps1 and eps2
+        #epsilon : Threshold value to be included in a cluster
+        
         self.df = df
         self.eps1 = eps1
         self.eps2 = eps2
