@@ -58,6 +58,7 @@ class st_dbSCAN():
         df = self.time_filter(place, df)
         for index, _ in df.iterrows():
             if index != index_point:
+                #jaccard distance function (dist=distance from similarity) 
                 intersection = len(list(set(place[0]).intersection(df.loc[index][0])))
                 union = (len(place[0]) + len(df.loc[index][0])) - intersection
                 try:
