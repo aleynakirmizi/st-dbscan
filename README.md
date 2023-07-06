@@ -1,5 +1,5 @@
 # st-dbscan
-An implementation of ST-DBScan algorithm using Python language. Rather than the 
+An implementation of ST-DBScan algorithm using Python language.Original version of stdbscan uses temporal data, longitude and latitude data. For this implementation, text data and temporal data is used to cluster news article
   
 ## Reference
 
