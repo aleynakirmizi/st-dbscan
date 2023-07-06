@@ -1,5 +1,5 @@
 # st-dbscan
-An implementation of ST-DBScan algorithm using Python language
+An implementation of ST-DBScan algorithm using Python language. Rather than the 
   
 ## Reference
 
